@@ -1,0 +1,124 @@
+a h1{
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    text-indent: -9969;
+    overflow: hidden;
+}
+
+.logo{
+    color: var(--bg-menu);
+}
+
+nav img{
+    width: 20px;
+    padding: 1.2em .5em;
+}
+
+.abrir, .cerrar {
+    display: block;
+    margin-top: .7rem;
+    margin-right: .8rem;
+    filter: invert(100%);
+}
+
+header {
+    width: 100vw;
+    padding: 2rem;
+    background-color: var(--bg-menu);
+    font-weight: 600;
+}
+
+.menu {
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--bg-menu-mobile);
+    
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    transition: 0.7s;
+    z-index: 100;
+}
+
+.menu a {
+    display: block;
+    padding: .8em;
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+}
+
+.cerrar {
+    position: absolute;
+    right: .7em;
+    top: .7em;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#check:checked~.menu {
+    right: 0;
+}
+
+.abrir {
+    position: absolute;
+    right: .7em;
+    top: .7em;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#check{
+    display: none;
+}
+
+.abrir:hover, .cerrar:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media(min-width: 860px){
+    /* NAV */
+    .abrir, .cerrar {
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        right: 0;
+        top: 2em;
+        width: fit-content;
+        background-color: none;
+        height: fit-content;
+        padding: 0;
+        background-color: rgb(171, 151, 110, .0);
+        margin-right: 1em;
+    }
+
+    .menu a{
+        display: inline-block;
+        color: white;
+        transition: all .5s;
+    }
+
+    .menu a:hover{
+        background-color:white;
+        color: var(--bg-menu);
+        transition: all .5s;
+    }
+
+    nav{
+        height: fit-content;
+    }
+
+    header img{
+        width: 3.5rem;
+    }
+}

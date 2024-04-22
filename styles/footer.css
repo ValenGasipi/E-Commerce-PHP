@@ -1,0 +1,61 @@
+footer{
+    background-color: rgb(255, 226, 226);
+}
+
+i span{
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    text-indent: -9969;
+    overflow: hidden;
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+footer h4{
+   color: var(--bg-menu);
+   font-weight: 600;
+}
+
+footer ul li {
+    font-family: 'Montserrat';
+    font-size: 1.4em ;
+    line-height: 1.5;
+    color: #d0e0e3;
+    margin-top: .5em;
+}
+
+footer ul li a {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(137, 25, 25);
+}
+
+footer #redes a:hover{
+    transform: scale(1.2);
+    transition: .5s ease;
+ }
+ 
+ footer #redes a{
+    transition: .5s ease;
+ }
+
+ .bi-instagram, .bi-tiktok, .bi-twitter-x{
+    color: var(--bg-menu);
+ }
+
+ .derechos{
+    color: var(--bg-menu);
+ }
+
+ @media screen and (min-width: 960px) {
+ 
+    footer ul {
+        flex-direction: row;
+    }
+} 
