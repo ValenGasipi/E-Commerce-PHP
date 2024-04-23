@@ -11,7 +11,6 @@
 
 body{
     overflow-x: hidden;
-
 }
 
 h1{
@@ -39,8 +38,75 @@ h1{
     margin: 1rem 0 1.5rem;
 }
 
+
+/*PRODUCTOS*/
+h2{
+    color: var(--bg-menu);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.productos{
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    max-width: 1300px;
+}
+
+.tarjeta{
+    width: 16rem;
+}
+
+.boton-id{
+    text-decoration: none;
+    padding: 4px 16px 8px 16px;
+    background-color: var(--bg-menu);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    transition: .4s;
+}
+
+.boton-id:hover{
+    background-color: #B44542;
+    transition: .4s;
+}
+
+/*Filtros Nav*/
+
+.contenedorFiltrosNav{
+    background-color: var(--bg-menu-mobile);
+    padding: 1rem;
+}
+
+.filtrosNav{
+    gap: 1rem;
+}
+
+/*PRODUCTO*/
+
+.productoId>div{
+    max-width: 440px;
+    margin: auto;
+    padding: 1rem;
+} 
+
 @media (width >= 768px){
     .seccion-1{
         width: 70%;
     }
+    .productoId>div{
+        max-width: 750px;
+        padding: 0;
+    } 
+
+    .card-body{
+        margin-left: 1rem;
+    }
 }
+
+
+
+/* max-width: 715px; */
+

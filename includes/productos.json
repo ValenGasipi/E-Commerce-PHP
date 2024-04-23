@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "modelo": "Adidas Superstar",
+        "precio": 150,
+        "marca": "adidas",
+        "material": "Cuero",
+        "estilo": "urbano",
+        "descripcion": "Este par amplifica el cl\u00e1sico modelo de los 70 para adaptarlo a la moda actual de forma moderna. Las proporciones ampliadas y el dise\u00f1o llamativo se hacen patentes con las emblem\u00e1ticas 3 Tiras dentadas.",
+        "imagen": "img\/superstar.jpg"
+    },
+    {
+        "id": 2,
+        "modelo": "Forum Low",
+        "precio": 80,
+        "marca": "adidas",
+        "material": "Cuero",
+        "estilo": "urbano",
+        "descripcion": "Las zapatillas de b\u00e1squet fueron la base del dise\u00f1o de los adidas Forum. Esta versi\u00f3n toma el cl\u00e1sico y lo eleva con una paleta de colores tenues y materiales de calidad para una sensaci\u00f3n premium.",
+        "imagen": "img\/forum-low.jpg"
+    },
+    {
+        "id": 3,
+        "modelo": "Campus",
+        "precio": 320,
+        "marca": "adidas",
+        "material": "Gamuza",
+        "estilo": "urbano",
+        "descripcion": "Estas zapatillas adidas se renuevan con una leng\u00fceta de malla que a\u00f1ade un toque de inspiraci\u00f3n skate a la estructura de gamuza. Un acabado reflectivo en los detalles remata el look",
+        "imagen": "img\/campus.jpg"
+    },
+    {
+        "id": 4,
+        "modelo": "Crazyfast",
+        "precio": 450,
+        "marca": "adidas",
+        "material": "Cuero",
+        "estilo": "deportivo",
+        "descripcion": "Este calzado est\u00e1 hecho para ayudarte a jugar como Mbappe, con un ritmo que deslumbrara. Agregamos una unidad Zoom Air y una textura adherente en la parte superior",
+        "imagen": "img\/crazyfast.jpg"
+    },
+    {
+        "id": 5,
+        "modelo": "Nike Air Force 1",
+        "precio": 120,
+        "marca": "nike",
+        "material": "Cuero y tela",
+        "estilo": "deportivo",
+        "descripcion": "El zapato deportivo Air Force 1, es un producto de Nike. Fue creado por el dise\u00f1ador Bruce Kilgore, fue el primer calzado deportivo de Baloncesto lanzado por Nike que usa la tecnolog\u00eda Nike Air.",
+        "imagen": "img\/air-force.webp"
+    },
+    {
+        "id": 6,
+        "modelo": "Air Jordan Legacy",
+        "precio": 250,
+        "marca": "nike",
+        "material": "Cuero",
+        "estilo": "deportivo",
+        "descripcion": "Este par rinde homenaje al legado de Michael Jordan con este reconocimiento al 312, el c\u00f3digo de \u00e1rea de Chicago. El dise\u00f1o es una combinaci\u00f3n moderna de elementos Jordan ic\u00f3nicos.",
+        "imagen": "img\/air-legacy.webp"
+    },
+    {
+        "id": 7,
+        "modelo": "Tiempo Legend",
+        "precio": 210,
+        "marca": "nike",
+        "material": "Cuero",
+        "estilo": "deportivo",
+        "descripcion": "Creado para quienes se toman en serio su deporte, la nueva versi\u00f3n de este calzado Pro tiene el nuevo cuero con dise\u00f1o avanzado FlyTouch Pro que te llevara a otro nivel.",
+        "imagen": "img\/tiempo-legend.webp"
+    },
+    {
+        "id": 8,
+        "modelo": "Dunk Low",
+        "precio": 180,
+        "marca": "nike",
+        "material": "Cuero",
+        "estilo": "urbano",
+        "descripcion": "Creado para la cancha pero llevado a las calles, el \u00edcono del b\u00e1squetbol recuerda otra \u00e9poca con un gui\u00f1o al color original del Dunk: azul universitario",
+        "imagen": "img\/dunk-low.webp"
+    },
+    {
+        "id": 9,
+        "modelo": "Nike Air Max 90",
+        "precio": 130,
+        "marca": "nike",
+        "material": "Cuero y malla",
+        "estilo": "urbano",
+        "descripcion": "Las Nike Air Max 90 son legendarias por su comodidad y estilo. Con su amortiguaci\u00f3n Air Max y su dise\u00f1o ic\u00f3nico, son perfectas para cualquier ocasi\u00f3n.",
+        "imagen": "img\/air-max-90.png"
+    },
+    {
+        "id": 10,
+        "modelo": "Zoom Mercurial",
+        "precio": 150,
+        "marca": "nike",
+        "material": "Malla",
+        "estilo": "urbano",
+        "descripcion": "Estos botines son incr\u00edblemente duraderos y te permiten jugar con una comodidad, que muy pocos te aportan. Su dise\u00f1o esta basado en Kylian Mbapp\u00e9",
+        "imagen": "img\/zoom-mercurial.webp"
+    },
+    {
+        "id": 11,
+        "modelo": "Nike Blazer '77",
+        "precio": 100,
+        "marca": "nike",
+        "material": "Cuero",
+        "estilo": "urbano",
+        "descripcion": "Las Nike Blazer Mid '77 son un cl\u00e1sico reinventado con su dise\u00f1o retro y su construcci\u00f3n duradera. Perfectas para un look retro y moderno.",
+        "imagen": "img\/blazer-mid.png"
+    },
+    {
+        "id": 12,
+        "modelo": "Adidas Ultraboost",
+        "precio": 180,
+        "marca": "adidas",
+        "material": "Primeknit",
+        "estilo": "deportivo",
+        "descripcion": "Las Adidas Ultraboost ofrecen un retorno de energ\u00eda sin igual con su amortiguaci\u00f3n Boost y su ajuste c\u00f3modo. Perfectas para correr y entrenar.",
+        "imagen": "img\/Ultraboost.jpg"
+    },
+    {
+        "id": 13,
+        "modelo": "Adidas Stan Smith",
+        "precio": 90,
+        "marca": "adidas",
+        "material": "Cuero",
+        "estilo": "urbano",
+        "descripcion": "Las Adidas Stan Smith son un icono de estilo con su dise\u00f1o limpio y su construcci\u00f3n de calidad. Ideales para un look cl\u00e1sico y casual.",
+        "imagen": "img\/stan-smith.jpg"
+    },
+    {
+        "id": 14,
+        "modelo": "Nike Pegasus 38",
+        "precio": 120,
+        "marca": "nike",
+        "material": "Malla",
+        "estilo": "deportivo",
+        "descripcion": "Las Nike Air Zoom Pegasus 38 ofrecen una amortiguaci\u00f3n y un ajuste c\u00f3modo. Perfectas para corredores de todos los niveles.",
+        "imagen": "img\/air-zoom-38.png"
+    },
+    {
+        "id": 15,
+        "modelo": "Adidas NMD R1",
+        "precio": 150,
+        "marca": "adidas",
+        "material": "Primeknit",
+        "estilo": "urbano",
+        "descripcion": "Las Adidas NMD R1 combinan estilo y comodidad con su dise\u00f1o moderno y su amortiguaci\u00f3n Boost. Ideales para un look urbano y casual.",
+        "imagen": "img\/nmd-r1.jpg"
+    },
+    {
+        "id": 16,
+        "modelo": "Nike Air Jordan 1",
+        "precio": 170,
+        "marca": "nike",
+        "material": "Cuero",
+        "estilo": "deportivo",
+        "descripcion": "Las Nike Air Jordan 1 son legendarias por su historia y estilo. Con su dise\u00f1o ic\u00f3nico, son perfectas para destacar en las calles o en la cancha.",
+        "imagen": "img\/air-jordan-1-low.jpg"
+    }
+]

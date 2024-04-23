@@ -32,6 +32,8 @@
         $vistaError = 'error-404';
     }
 
+    include_once 'class/clase.php'
+
 ?>
 
 
