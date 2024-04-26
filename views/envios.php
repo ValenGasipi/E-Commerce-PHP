@@ -5,16 +5,16 @@
             <form method=POST action="index.php?seccion=procesar" enctype="multipart/form-data">
             
                 <label for="nombre" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="nombre" name="Nombre y apellido" placeholder="Nombre y Apellido">
+                <input type="text" class="form-control" id="nombre" name="Nombre y apellido" placeholder="Nombre y Apellido" required>
 
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="name@email.com">
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@email.com" required>
 
                 <label for="direccion" class="form-label">Direccion</label>
-                <input type="text" class="form-control" id="Direccion" name="direccion" placeholder="Av. Siempre viva">
+                <input type="text" class="form-control" id="Direccion" name="direccion" placeholder="Av. Siempre viva" required>
 
                 <label for="numero" class="form-label">Numero de calle</label>
-                <input type="number" class="form-control" id="numero" name="numero" placeholder="742">
+                <input type="number" class="form-control" id="numero" name="numero" placeholder="742" required>
 
                     <!-- <label for="mensaje" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="mensaje" rows="3">Hola Quiero unas zapatillas facheras!</textarea> -->
