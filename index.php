@@ -22,6 +22,9 @@
         ],
         'alumnos' => [
             'titulo' => 'Alumnos'
+        ],
+        'procesado' => [
+            'titulo' => 'Formulario Enviado'
         ]
     ];
 

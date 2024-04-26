@@ -1,7 +1,7 @@
 <header>
         <div class="main_menu">
             <a href="index.php?seccion=home" class="logo"><img src="img/logo.png" alt="Logo Dripka">
-                <h1>Mancruz</h1>
+                <h1>DRIPKA</h1>
             </a>
 
             <input type="checkbox" id="check">
@@ -16,7 +16,7 @@
                             echo "PRODUCTOS";
                         } ?></a>
                 <a href="index.php?seccion=alumnos"><?= ((isset($_GET["seccion"]) && $_GET["seccion"] == "alumnos")) ? "<b>ALUMNOS</b>" : "ALUMNOS" ?></a>
-                <a href="index.php?seccion=envios"><?= ((isset($_GET["seccion"]) && $_GET["seccion"] == "envios")) ? "<b>ENVÍOS</b>" : "ENVÍOS" ?></a>
+                <a href="index.php?seccion=envios"><?= ((isset($_GET["seccion"]) && $_GET["seccion"] == "envios") || $_GET["seccion"] == "procesar") ? "<b>ENVÍOS</b>" : "ENVÍOS" ?></a>
                 <label for="check" class="cerrar"> &#215; </label>
             </nav>
         </div>
