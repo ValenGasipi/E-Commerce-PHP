@@ -5,7 +5,7 @@
             <form method=POST action="index.php?seccion=procesar" enctype="multipart/form-data">
             
                 <label for="nombre" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="nombre" name="Nombre y apellido" placeholder="Nombre y Apellido" required>
+                <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Nombre y Apellido" required>
 
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="name@email.com" required>

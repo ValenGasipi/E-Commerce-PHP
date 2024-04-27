@@ -1,5 +1,6 @@
 <?php 
 
+
     $vistaValida = isset($_GET['seccion']) ? $_GET['seccion'] : 'home'; //isset pregunta si el valor que le estoy pasando entre parentesis existe. Si existe el método get seccion, te manda al que se elije y sino, al $vistaValida ser igual a home, la redireccion va a ser 'views/home.php'
     $vistaError = 'error-404'; //Creo una vista con el valor de la pagina de error, que se usara en caso de no encontrar una direccion/URL
 
@@ -23,7 +24,7 @@
         'alumnos' => [
             'titulo' => 'Alumnos'
         ],
-        'procesado' => [
+        'procesar' => [
             'titulo' => 'Formulario Enviado'
         ]
     ];
@@ -52,6 +53,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Iconos Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Estilos generales -->
     <link rel="stylesheet" href="styles/estilos.css">
     <!-- Estilos del footer -->
@@ -75,5 +78,6 @@ include_once 'includes/footer.php';?>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
